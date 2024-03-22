@@ -276,3 +276,170 @@ background: rgb(157, 97, 255);
 border: none;
 
 }
+
+
+
+
+#information {
+    padding: 0px 193px 0px 140px;
+    width: 100%;
+}
+
+
+.information_title {
+    
+font-size: 36px;
+font-weight: 800;
+line-height: 44px;
+color: rgb(94, 76, 179);
+
+}
+
+.information_title span {
+    color: rgb(157, 97, 255);
+    font-size: 36px;
+font-weight: 800;
+}
+
+
+.information_main_text_img {
+    display: flex;
+    margin-top: 59px;
+    column-gap: 71px;
+}
+
+
+.information_text_about {
+    margin-top: 105px;
+    
+    
+    
+}
+.information_title_img {
+    color: rgb(157, 97, 255);
+
+font-size: 18px;
+font-weight: 700;
+margin-bottom: 17px;
+
+}
+
+.information_text_about p {
+    margin-bottom:  8px;
+    margin-left: 15px;
+}
+
+.information_text_about p::before {
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: rgb(94, 76, 179);
+    position: absolute;
+  border-radius: 50%;
+margin-top: 3px;
+ margin-left: -15px;
+ 
+  
+}
+
+
+.information_text1 {
+    color: rgb(94, 76, 179);
+
+font-size: 14px;
+font-weight: 400;
+width: 527px;
+
+
+}
+
+
+
+
+
+
+.information_main_text_img1 {
+    display: flex;
+    
+    column-gap: 107px;
+    flex-direction: row-reverse;
+    width: 100%;
+   justify-content:start;
+
+}
+
+
+
+
+
+.information_text_about1 {
+    margin-top: 88px;
+    
+    
+}
+
+.information_text_about1 p {
+    margin-bottom:  8px;
+    margin-left: 15px;
+}
+
+.information_text_about1 p::before {
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: rgb(94, 76, 179);
+    position: absolute;
+  border-radius: 50%;
+margin-top: 3px;
+ margin-left: -15px;}
+ 
+  
+ .information_main_text_img2 {
+    display: flex;
+    
+    column-gap: 79px;
+    
+
+}
+
+.information_text_about2 {
+    margin-top: 117px;
+
+    
+}
+.information_text_about2 p {
+    margin-bottom:  8px;
+    margin-left: 15px;
+}
+
+.information_text_about2 p::before {
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-color: rgb(94, 76, 179);
+    position: absolute;
+  border-radius: 50%;
+margin-top: 3px;
+ margin-left: -15px;}
+
+
+ .informattion_wrapper_btn{
+    margin-top: 99px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.information_text_btn {
+    color: rgb(255, 255, 255);
+
+font-size: 12px;
+font-weight: 800;
+padding: 22px 78px;
+border-radius: 5px;
+
+background: rgb(157, 97, 255);
+border: none;
+
+}
