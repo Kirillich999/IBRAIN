@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.header_logo {
+.header-logo {
     background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(157, 97, 255));
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
@@ -25,31 +25,31 @@ font-weight: 800;
 
 }
 
-.header_nav ul {
+.header-nav ul {
     display: flex;
     column-gap: 27px;
 }
 
-.header_nav_link {color: rgb(94, 76, 179);
+.header-nav__link {color: rgb(94, 76, 179);
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;}
    
-.header_contacts {
+.header-contacts {
     display: flex;
     column-gap: 10px;
 }
 
-.header_social_link {
+.header-social__link {
    margin-top: 5px;
    align-self: flex-start;
 }
-.header_phone{
+.header-phone{
     display: flex;
     flex-direction: column;
 }
 
-.header_phone_number {
+.header-phone__number {
     color: rgb(94, 76, 179);
     font-family: Montserrat;
     font-size: 24px;
@@ -57,7 +57,7 @@ font-weight: 800;
     
 }
 
-.header_work_time {
+.header__work-time {
     color: rgb(94, 76, 179);
 font-family: Montserrat;
 font-size: 12px;
@@ -66,7 +66,7 @@ text-align: right;
 
 }
 
-.header_request{
+.header-request{
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-size: 12px;
@@ -93,12 +93,12 @@ text-align: right;
    
 }
 
-.hero_text {
+.hero-text {
     display: flex;
     flex-direction: column;
 }
 
-.hero_text_name {
+.hero-text__name {
 
 font-size: 36px;
 font-weight: 700;
@@ -108,13 +108,13 @@ width: 653px;
 color: rgb(94, 76, 179);
 }
 
-.hero_text_name span {
+.hero-text__name span {
     color:rgb(157, 97, 255) ;
     
 }
 
 
-.hero_text_name_about{
+.hero-text__name-about{
     
 font-size: 16px;
 font-weight: 700;
@@ -127,12 +127,12 @@ color: rgb(94, 76, 179);
 
 }
 
-.hero_text_name_about span {
+.hero-text__name-about span {
     color: rgb(157, 97, 255);
    
 }
 
-.hero_button {
+.hero-button {
     color: rgb(255, 255, 255);
     
     font-size: 12px;
@@ -150,7 +150,7 @@ color: rgb(94, 76, 179);
 }
 
 
-.hero_text_name_answer{
+.hero-text__name-answer{
     font-family: Montserrat;
 font-size: 12px;
 font-weight: 300;
@@ -164,13 +164,13 @@ color: rgb(157, 97, 255);
 
 }
 
-.hero_text_name_answer span {
+.hero-text__name-answer span {
     color: rgb(79, 79, 79);
    
 }
 
 
-.image_vector {
+.image-vector {
 display: flex;
 
 align-self: center;
@@ -178,31 +178,31 @@ width: 24px;
 margin-top: 95px;
 }
 
-#info_block {
+#info-block {
     padding: 0 140px 150px 140px;
 }
 
-.info_block_title {
+.info-block__title {
     
 font-size: 36px;
 font-weight: 800;
 color:rgb(94, 76, 179);
 }
 
-.title_color {
+.title-color {
     color: rgb(157, 97, 255);
     font-size: 36px;
 font-weight: 800;
 }
 
 
-.info_block_wrapper {
+.info-block__wrapper {
     display: flex;
     gap: 54px 20px;
     margin-top: 54px;
     flex-wrap: wrap;
 }
-.info_block_card {
+.info-block__card {
     padding: 2px 8px 39px 15px;
     border-radius: 10px;
 
@@ -213,7 +213,7 @@ width: calc(100% / 3 - 20px);
 
 }
 
-.info_block_card_number {
+.info-block__card-number {
     color: rgb(183, 152, 191);
 width: 69px;
 font-size: 64px;
@@ -224,7 +224,7 @@ line-height: 78px;
 
 }
 
-.info_block_card_title {
+.info-block__card-title {
     color: rgb(68, 111, 179);
 
 font-size: 14px;
@@ -236,7 +236,7 @@ position: relative;
 }
 
 
-.info_block_card_title::before {
+.info-block__card-title::before {
     content: "";
     height: 2px;
     background-color:  rgb(68, 111, 179);
@@ -245,7 +245,7 @@ position: relative;
     bottom:-10px ;
     width: 175px;
 }
-.info_block_card_desc {
+.info-block__card-desc {
     color: rgb(94, 76, 179);
 
 font-size: 12px;
@@ -256,7 +256,7 @@ line-height: 15px;
 }
 
 
-.info_block_btn_wrapper {
+.info-block__btn-wrapper {
     margin-top: 51px;
     display: flex;
     justify-content: center;
@@ -264,7 +264,7 @@ line-height: 15px;
 
 }
 
-.info_block_btn {
+.info-block__btn {
     color: rgb(255, 255, 255);
 
 font-size: 12px;
@@ -286,7 +286,7 @@ border: none;
 }
 
 
-.information_title {
+.information-title {
     
 font-size: 36px;
 font-weight: 800;
@@ -295,27 +295,33 @@ color: rgb(94, 76, 179);
 
 }
 
-.information_title span {
+.information-title span {
     color: rgb(157, 97, 255);
     font-size: 36px;
 font-weight: 800;
 }
 
 
-.information_main_text_img {
+.information-main {
     display: flex;
     margin-top: 59px;
     column-gap: 71px;
 }
 
 
-.information_text_about {
+.information__text-about {
     margin-top: 105px;
     
     
     
 }
-.information_title_img {
+
+.information__text-about p {
+    margin-bottom:  8px;
+    margin-left: 15px;
+}
+
+.information__title-img {
     color: rgb(157, 97, 255);
 
 font-size: 18px;
@@ -324,12 +330,8 @@ margin-bottom: 17px;
 
 }
 
-.information_text_about p {
-    margin-bottom:  8px;
-    margin-left: 15px;
-}
 
-.information_text_about p::before {
+.information__text-about p::before {
     content: "";
     height: 9px;
     width: 9px;
@@ -343,7 +345,7 @@ margin-top: 3px;
 }
 
 
-.information_text1 {
+.information__text-desc {
     color: rgb(94, 76, 179);
 
 font-size: 14px;
@@ -358,7 +360,7 @@ width: 527px;
 
 
 
-.information_main_text_img1 {
+.information-medium {
     display: flex;
     
     column-gap: 107px;
@@ -372,18 +374,18 @@ width: 527px;
 
 
 
-.information_text_about1 {
+.information__text-about1 {
     margin-top: 88px;
     
     
 }
 
-.information_text_about1 p {
+.information__text-about1 p {
     margin-bottom:  8px;
     margin-left: 15px;
 }
 
-.information_text_about1 p::before {
+.information__text-about1 p::before {
     content: "";
     height: 9px;
     width: 9px;
@@ -394,7 +396,7 @@ margin-top: 3px;
  margin-left: -15px;}
  
   
- .information_main_text_img2 {
+ .information-medium2 {
     display: flex;
     
     column-gap: 79px;
@@ -402,17 +404,17 @@ margin-top: 3px;
 
 }
 
-.information_text_about2 {
+.information__text-about2 {
     margin-top: 117px;
 
     
 }
-.information_text_about2 p {
+.information__text-about2 p {
     margin-bottom:  8px;
     margin-left: 15px;
 }
 
-.information_text_about2 p::before {
+.information__text-about2 p::before {
     content: "";
     height: 9px;
     width: 9px;
@@ -423,7 +425,7 @@ margin-top: 3px;
  margin-left: -15px;}
 
 
- .informattion_wrapper_btn{
+ .informattion-btn{
     margin-top: 99px;
     display: flex;
     justify-content: center;
@@ -431,7 +433,7 @@ margin-top: 3px;
 
 }
 
-.information_text_btn {
+.information__btn-text {
     color: rgb(255, 255, 255);
 
 font-size: 12px;
