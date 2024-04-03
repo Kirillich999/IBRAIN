@@ -1,0 +1,32 @@
+@media (max-width: 1440px) {
+    .gold__star-img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 900px) {
+    .gold__star-img {
+        width: 70%;
+       
+    } 
+    .certificate__conteiner {
+        margin: 0 auto;
+    }
+
+    
+    .certificate__img {
+        width: 5vw;
+    }
+}
+
+@media (max-width: 540px) {
+   
+}
+
+@media (max-width: 375px) {
+    
+}
+
