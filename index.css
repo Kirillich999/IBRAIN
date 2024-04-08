@@ -774,3 +774,409 @@ text-align: left;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.feedback {
+    padding: 150px 140px 270px 140px;
+}
+
+.feedback__container {
+    border-radius: 20px;
+   background-color: rgb(244, 248, 255); 
+   padding: 35px 98px 187px 78px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 0 45px;
+   position: relative;
+}
+
+.feedback__info-title {
+    color: rgb(94, 76, 179);
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 800;
+line-height: 44px;
+letter-spacing: 0%;
+margin-bottom: 86px;
+width: 399px;
+
+}
+
+.feedback__info-desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.feedback__info-desc {
+    color: rgb(94, 76, 179);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+
+}
+
+
+.feedback__container-img-cirkle {
+    position: absolute;
+    left: 510px;
+bottom: 140px;
+}
+
+
+.feedback__container-img-cube {
+    position: absolute;
+    right: 10px;
+    bottom: -70px;
+
+}
+
+.feedback__container-img-hand {
+    position: absolute;
+    left: 0px;
+    bottom: 32px;
+
+}
+
+
+.feedback__container-img-quadro {
+    position: absolute;
+    left: 351px;
+    margin-top: -60px;
+}
+
+.feedback__info-desc span {
+    color: rgb(82, 48, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+
+}
+
+
+
+
+.feedback__form {
+    margin-top: 30px;
+}
+
+
+form {
+    border-radius: 20px;
+    background-color: rgb(157, 97, 255);
+    padding: 56px 65px 46px 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.feedback__form-title {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 28px;
+display: flex;
+flex-direction: column;
+}
+
+.feedback__form-title a {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.feedback__form-text {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 36px;
+}
+
+
+.feedback__form-name {
+ 
+
+background-color: rgb(157, 97, 255) ;
+border: none;
+border-bottom: 2px solid rgb(254, 254, 254);
+padding-bottom: 7px;
+
+}
+
+.feedback__form-name::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.feedback__form-number {
+
+
+background-color: rgb(157, 97, 255) ;
+border: none;
+border-bottom: 2px solid rgb(255, 255, 255);
+padding-bottom: 7px;
+margin-top: 32px;
+}
+
+.feedback__form-number::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+
+.feedback__form-btn {
+    color: rgb(157, 97, 255);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0%;
+text-align:center;
+padding: 22px 103px;
+border-radius: 10px;
+margin-top: 31px;
+border-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+
+}
+
+
+.feedback__form-checkbox-wrapper {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.feedback__form-checkbox-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    margin-left: 7px;
+
+}
+
+
+.feedback__form-checkbox-text span {
+    color: rgb(62, 61, 64)
+   ;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+
+}
+
+
+
+
+
+.footer {
+    background-color: rgb(94, 76, 179);
+}
+
+.footer__conteiner {
+    padding: 75px 140px 58px 140px;
+    
+}
+
+.footer__connection {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
+   
+   
+   
+}
+
+.footer__connection-btn {
+  
+}
+
+.footer__connection-mail {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+
+.footer__connection-messege {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.footer__connection-mail {
+    color: rgb(157, 97, 255);
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+.footer__connection-btn {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+padding: 22px 108px 21px 108px;
+background-color: rgb(157, 97, 255);
+border-radius: 10px;
+border: none;
+width: 341px;
+
+grid-row: 2/3;
+grid-column: 3/4;
+justify-items: end;
+}
+
+
+.footer__line {
+   background-color: rgb(97, 159, 255); 
+height: 2px;
+margin-top: 32px;
+}
+
+
+.footer__inform {
+    margin-top: 45px ;
+    
+
+}
+
+
+.footer__inform-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 24px;
+}
+
+.footer__inform-tel {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+    
+}
+.footer__images {
+    grid-column: 3;
+    grid-row: 1/2;
+   
+}
+
+
+
+
+
+.footer__inform-city {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+
+.footer__inform-tel {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.footer__end-title {
+    background: linear-gradient(98.75deg, rgb(94, 76, 179),rgb(255, 255, 255),rgb(157, 97, 255));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+text;
+text-fill-color:
+transparent;
+font-family: Montserrat;
+font-size: 48px;
+font-weight: 800;
+line-height: 59px;
+letter-spacing: 7%;
+text-align: left;
+
+}
+
+.footer__end-desc {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.footer__end-text {
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+
+
+.footer__end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
