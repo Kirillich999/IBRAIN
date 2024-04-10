@@ -1,32 +1,177 @@
 @media (max-width: 1440px) {
-    .gold__star-img {
-        width: 70%;
-    }
+  
 }
 
 @media (max-width: 1200px) {
+
+    /* 1SECTION */
+
+    .header-nav ul {
+        column-gap: 10px;
+    }
+
+    .header-phone__number {
+        font-size: 1vw;
+    }
+
+    .header-social__link {
+        width: 3vh;
+    }
+    .header__work-time {
+        text-align: left;
+    }
+    #hero {
+       
+        background-size: 50vw;
+        background-position-y: top;
+    }
+
+    .hero-text__name {
+        font-size: 2vw;
+        width: 30vw;
+    }
+
+    .hero-text__name-about {
+        font-size: 1.5vw;
+        width: 30vw;
+        
+    }
+
+    .hero-button {
+        font-size: 1.5vw;
+    width: 35%;
+      margin-top: 5vw;
+        text-align: center;
+        
+    }
+
+    .hero-text__name-answer {
+        width: 30vw;
+    }
+/* 1SECTION */
+
+
+/* 2SECTION */
+
+.info-block__title {
+    font-size: 3VW;
+}
+
+.info-block__title span {
+    font-size: 3VW;
+}
+
+.info-block__card-title::before {
+   width: 100%;
+}
+    
+ /* 2SECTION    */
     
 }
 @media (max-width: 900px) {
-    .gold__star-img {
-        width: 70%;
-       
-    } 
-    .certificate__conteiner {
-        margin: 0 auto;
-    }
-
-    
-    .certificate__img {
-        width: 5vw;
-    }
+   /* 1SECTION */
+    #hero {
+    padding-left: 6vw;
+}
+.image-vector {
+    margin-top: 5vw;
 }
 
+.hero-button {
+    padding: 20px;
+         
+     
+    
+ }
+
+/* 1SECTION */
+
+/* 2section */
+#info-block {
+padding: 4vw;
+}
+/* 2SECTION */
+
+
+/* 3SECTION */
+
+
+#information {
+    padding-left: 5vw;
+}
+.information-main {
+    column-gap: 5vw;
+    
+
+}
+
+.informattion-btn {
+    margin-top: 5vw;
+    justify-content: space-around;
+   
+}
+.infromation_cartoon_img {
+    width: 40vw;
+}
+
+.information-medium {
+    column-gap: 5vw;
+    
+
+}
+
+ .information-medium2 {
+    column-gap: 5vw;
+   
+
+}
+.information__text-desc {
+    width: 50vw;
+}
+.information__text-about1 {
+    margin-top: 0px;
+   
+}
+
+.information__text-about {
+    margin-top: 0px;
+    
+}
+
+.information__text-about2 {
+    margin-top: 0px;
+   
+
+}
+}
+
+
+
 @media (max-width: 540px) {
+    .info-block__card-number {
+        font-size: 10vw;
+    } 
+    .info-block__card-title {
+        font-size: 3vw;
+    }
+    .hero-button {
+   padding: 22px;}
+        
+    
    
 }
 
 @media (max-width: 375px) {
+
+    
+    .info-block__card-title {
+        font-size: 2vw;
+    }
+
+    .info-block__card-desc {
+        font-size: 3vw;
+    }
+  
     
 }
 

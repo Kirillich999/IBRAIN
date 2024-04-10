@@ -12,11 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700,800,900;&display=swap"
         rel="stylesheet">
     <link rel="icon" type="images/x-icon" href="./img/brainstorming_brain_idea_lightbulb_light_icon_193974.ico">
+    <script defer src="./app.js"></script>
 </head>
 
 <body>
-    <header id="header">
+    <header class="header" id="header">
+        <button id="burger" class="header__burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          
+
+
+        </button>
         <h1 class="header-logo">IBRAIN</h1>
+        <img class="header__logo-img" src="./img/лого.png" alt="logo">
 
         <nav class="header-nav">
             <ul>
@@ -26,6 +36,9 @@
                 <li><a class="header-nav__link" href="#">Контакты</a></li>
             </ul>
         </nav>
+
+
+
         <div class="header-contacts">
             <img class="header-social__link" src="./img/telegram (3) 1.png" alt="">
             <img class="header-social__link" src="./img/whatsapp (1) 1.png" alt="">
@@ -34,9 +47,14 @@
                 <span class="header__work-time">Ежедневно с 9:00 до 18:00</span>
             </div>
 
-
-            <button class="header-request">Заказать звонок</button>
+<!-- 
+            <button class="header-request">Заказать звонок</button> -->
+            <button class="header-request"> 
+                <span class="header__btn-text">Заказать звонок</span>
+                <span class="header__btn-icon"></span></button>
+           
         </div>
+        
 
     </header>
     <main>

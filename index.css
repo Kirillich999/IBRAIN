@@ -25,6 +25,11 @@ font-weight: 800;
 
 }
 
+.header__logo-img {
+    display: none;
+}
+
+
 .header-nav ul {
     display: flex;
     column-gap: 27px;
@@ -82,7 +87,7 @@ text-align: right;
     background-repeat: no-repeat;
     background-image: url(./img/gggg.jpg);
    
-    
+    width: 100%;
     padding: 67px 20px 90px 140px;
    background-position: right;
   background-position-y:bottom;
@@ -1017,9 +1022,7 @@ background-color: rgb(255, 255, 255);
    
 }
 
-.footer__connection-btn {
-  
-}
+
 
 .footer__connection-mail {
     grid-row: 2/3;
@@ -1139,8 +1142,7 @@ text;
 transparent;
 background-clip:
 text;
-text-fill-color:
-transparent;
+
 font-family: Montserrat;
 font-size: 48px;
 font-weight: 800;
@@ -1180,3 +1182,128 @@ text-align: left;
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+
+/* БУРГЕР МЕНЮ */
+
+.header__burger-btn {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+   
+    z-index: 2;
+}
+
+.header__burger-btn span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: blueviolet;
+    left: 5px;
+    transition: transform.3s , opacity.3s , background-color.3s;
+}
+
+
+.header__burger-btn span:nth-child(1) {
+    transform: translateY(-10px);
+}
+
+
+.header__burger-btn span:nth-child(3) {
+    transform: translateY(10px);
+}
+
+.header.open .header__burger-btn span:nth-child(1) {
+    transform: translateX(0) rotate(-45deg);
+}
+
+.header.open .header__burger-btn span:nth-child(2) {
+    opacity: 0;
+}
+
+.header.open .header__burger-btn span:nth-child(3) {
+    transform: translateX(0) rotate(45deg);
+}
+
+
+@media (max-width: 900px) {
+
+
+
+  
+
+    .header-logo {
+        display: none;
+    }
+
+    .header__logo-img {
+        display: block;
+    }
+    
+    .header__burger-btn {
+        display: block;
+    }
+    .header-nav {
+        position: absolute;
+        left: -100%;
+        top: 0;
+        background-color: rgb(210, 114, 114);
+        width: 100%;
+        height: 100%;
+        padding: 100px;
+        transition: transform.5s;
+    }
+    
+    .header-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    
+    }
+
+.header-nav__link {
+    font-size: 18px;
+}
+
+
+
+
+
+
+.header.open .header-nav {
+    transform: translateX(100%);
+}
+
+.header-contacts img {
+    display: none;
+
+}
+.header-phone {
+    display: none;
+}
+
+.header__btn-text {
+    display: none;
+}
+
+
+.header-request {
+    display: block;
+    background-image: url(./img/iconmobile.png);
+    width: 30px;
+    height: 30px;
+    /* background-size: cover; */
+  
+}
+}
+
+
+
