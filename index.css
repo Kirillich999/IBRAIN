@@ -571,6 +571,7 @@ margin-bottom: 25px;
 
 
 
+
 .stages {
     padding: 119px 140px 0px 141px;
 }
@@ -793,6 +794,7 @@ text-align: left;
    grid-template-columns: repeat(2, 1fr);
    gap: 0 45px;
    position: relative;
+   
 }
 
 .feedback__info-title {
@@ -819,6 +821,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0%;
+width: 100%;
 
 }
 
