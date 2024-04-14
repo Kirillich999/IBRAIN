@@ -338,7 +338,8 @@ margin-bottom: 5px;
 }
 .iinvestigate__img-wrapper {
     width: 4VW;
-    align-items: center;
+   
+   
 }
 .investigate__img {
     width: 50VW;
@@ -383,10 +384,10 @@ margin-bottom: 5px;
 .feedback__container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+   
     justify-content: center;
-    justify-items: start;
-    padding-left: 70px;
-    padding-right: 70px;
+    justify-items: center;
+   
     background-image: url(./img/Cylinder_Y1_-_Extra_Thin0006\ 1\ 1.png);
     position: relative;
     background-repeat: no-repeat;
@@ -397,9 +398,11 @@ margin-bottom: 5px;
   
 }
 
+
 .feedback__info-desc {
-    width: 50vw;
+    width: 40vw;
   font-size: 1.5vw;
+  
 }
 
 .feedback__info-desc span {
@@ -408,7 +411,7 @@ margin-bottom: 5px;
 }
 
 .feedback__form {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .feedback__form-btn {
     padding: 10px;
@@ -416,7 +419,10 @@ margin-bottom: 5px;
 }
 
 .feedback__info-title {
-    text-align: center;
+    justify-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
 }
 
 .feedback__container-img-cirkle {
@@ -439,10 +445,26 @@ margin-bottom: 5px;
     width: 20vw;
 }
 
+.feedback__form-title a {
+    font-size: 2vw;
+}
+
+
 /* FOOTERSECTION */
 
+.footer__conteiner {
+    padding-right: 40PX;
+    padding-left: 40PX;
+   }
+
 .footer__connection-btn {
-    width: 20VW;
+    width: 50VW;
+
+    
+        
+        grid-column: 2/4;
+        grid-row: 2/3;    
+
 }
 
 .footer__connection-messege {
@@ -458,6 +480,8 @@ margin-bottom: 5px;
 .footer__inform-tel {
     font-size: 2VW;
 }
+
+
 
 }
 
@@ -483,7 +507,7 @@ margin-bottom: 5px;
 /* 6SECTION */
 
 .stages {
-    padding-left: 0PX;
+    padding-left: 50PX;
     gap: 0;
     padding-top: 30PX;
 }
@@ -518,6 +542,56 @@ margin-bottom: 5px;
     
     text-align: center;
    }
+
+/* 
+   FEEDBACKSECTION */
+.feedback {
+    padding-left: 30PX;
+}
+   .feedback__info-desc {
+    width: 30vw;
+  font-size: 1.5vw;
+  
+}
+.feedback__container-img-cirkle {
+    left: 0px;
+    width: 5vw;
+    bottom: 230px;
+}
+
+.feedback__container-img-quadro {
+    left: 30px;
+    width: 20vw;
+    top: 20PX;
+}
+
+
+.feedback__form {
+    margin-left: 0px;
+}
+
+   /* FOOTERSECTION */
+   .footer__conteiner {
+    padding-right: 20PX;
+    padding-left: 20PX;
+   }
+   .footer__connection-btn {
+    font-size: 2VW;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 50vw;
+}
+.footer__connection span {
+   align-items: flex-end;
+   display: flex;
+
+}
+.footer__end-desc {
+    font-size: 3vw;
+    width: 80vw;
+    text-align: center;
+}
+
 }
 
 @media (max-width: 375px) {
@@ -544,5 +618,18 @@ margin-bottom: 5px;
     .certificate__desc-wrapper {
         margin-bottom: -5px;
     }
+
+    /* STAGESSECTION */
+    .stages {
+        margin-left: 60PX;
+        gap: 0;
+        padding-top: 30PX;
+    }
+
+/* FOOTERSECTION */
+.footer__end-text {
+    font-size: 3vw;
+}
+   
 }
 
